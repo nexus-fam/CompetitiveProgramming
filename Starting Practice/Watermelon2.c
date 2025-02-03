@@ -8,13 +8,13 @@ int main() {
 
     for (i = 0; i <= 100; i++) {
         for (j = 0; j <= 100; j++) {
-            if (i + j == w && i > 0 && j > 0 && i % 2 == 0 && j % 2 == 0) {
+            if (i * 2 + j * 2 == w && i > 0 && j > 0) {
                 printf("YES");
                 return 0;
             }
         }
     }
-    
+
     printf("NO");
     return 0;
 }
