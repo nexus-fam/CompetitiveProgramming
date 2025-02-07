@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "g:/Code with git repository/CompetitiveProgramming",
-      "program": "g:/Code with git repository/CompetitiveProgramming/build/Debug/outDebug",
+      "cwd": "g:/Code with git repository/CompetitiveProgramming/Starting Practice",
+      "program": "g:/Code with git repository/CompetitiveProgramming/Starting Practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
