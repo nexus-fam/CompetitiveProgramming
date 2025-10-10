@@ -3,7 +3,6 @@
 using namespace std;
 
 bool isPalindrome(int x) {
-        int n =x;
         if(x<0) return false;
         else if(x==0) return true;
         else{
