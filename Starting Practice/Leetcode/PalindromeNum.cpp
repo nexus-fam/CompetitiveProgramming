@@ -7,14 +7,12 @@ bool isPalindrome(int x) {
         else if(x==0) return true;
         else{
             int rev = 0;
-            while(n>0){
+            for(int n=x, rev = 0; n>0; n/=10){
                 if(rev > INT_MAX/10) return false;
-                rev *=10;
-                rev +=n%10;
-                n/=10;
+                rev = (rev*10) + (n%10);
+                if(rev==x) return true;
             }
-            if(rev==x) return true;
-            else return false;
+            return false;
         }
         
     }
